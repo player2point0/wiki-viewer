@@ -74,7 +74,7 @@
 }
 
 /*Mobile*/
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
 
 	.grid-item {
 		margin: 2px;
@@ -95,13 +95,12 @@
 
 	#search-box{
 		text-align: center;
-		background-color: red;
 	}
 	*/
 }
 
 /*tablet*/
-@media screen and (max-width: 800px) and (min-width: 700px) {
+@media only screen and (max-width: 800px) and (min-width: 700px) {
 
 	.grid-item {
 	margin: 2px;
@@ -131,7 +130,7 @@
 }
 
 /*Large Laptop*/
-@media screen and (min-width: 1400px) and (max-width: 3000px) {
+@media only screen and (min-width: 1400px) and (max-width: 3000px) {
 
 	.grid-item {
 	margin: 2px;
