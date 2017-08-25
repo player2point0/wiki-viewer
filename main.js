@@ -136,7 +136,7 @@ $(function(){
 	//endless Scroll
 	$(window).scroll(function ()
 	{
-   		if ($(window).scrollTop() >= $(document).height() - $(window).height() - 100)
+   		if ($(window).scrollTop() >= $(document).height() - $(window).height() - 400)
 		{
 			var index = items.length;
 

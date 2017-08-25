@@ -2,6 +2,8 @@ class Item
 {
 	constructor(url, imgUrl, text)
 	{
+		this.color = ["#FF3B00",]
+
 		this.a = document.createElement("a");
 		this.div = document.createElement("div");
 		this.img = document.createElement("img");
