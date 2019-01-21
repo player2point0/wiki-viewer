@@ -80,15 +80,30 @@
 		font-size: 2rem;
 	}
 
-
-	#submit {
-		margin: 5px;
-	}
-
 	#search-box{
 		text-align: center;
+		width: 100vw;
+		height: 6vh;
+		padding: 4vw;
+		top: 0%;
+		left: 50%;
+		margin-top: 5vh;
+	}
+	
+	#search {
+		margin: 0px;
+		padding: 0px;
+		margin-left: 10px;
+		float: left;
+		width: 90vw;
+		height: 5vh;
+	}
+	
+	#submit {
+		display: none;
 	}
 }
+
 
 /*tablet*/
 @media screen and (max-width: 800px) and (min-width: 700px) {
@@ -113,7 +128,7 @@
 	}
 
 	#search-box{
-	text-align: center;
+		text-align: center;
 	}
 }
 
