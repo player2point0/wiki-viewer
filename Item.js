@@ -67,7 +67,6 @@ class Item
 
 		for(var i in valid)
 		{
-			console.log("type : "+type+" i :"+i);
 			if(valid[i] == type) return true;
 		}
 

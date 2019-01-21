@@ -6,7 +6,7 @@
   "display": "minimal-ui",
   "orientation": "portrait",
   "Scope": "/",
-  "start_url": "/",
+  "start_url": "https://player2point0.github.io/wiki-viewer/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
