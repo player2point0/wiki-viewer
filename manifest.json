@@ -3,7 +3,7 @@
   "short_name": "wiker",
   "theme_color": "#5121f3",
   "background_color": "#237bc1",
-  "display": "minimal-ui",
+  "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
   "start_url": "https://player2point0.github.io/wiki-viewer/",
