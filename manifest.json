@@ -1,8 +1,8 @@
 {
-  "name": "wiki Viewer",
+  "name": "wiki viewer",
   "short_name": "wiker",
-  "theme_color": "#f321bf",
-  "background_color": "rgba(38,251,117,0.98)",
+  "theme_color": "#5121f3",
+  "background_color": "#237bc1",
   "display": "minimal-ui",
   "orientation": "portrait",
   "Scope": "/",
