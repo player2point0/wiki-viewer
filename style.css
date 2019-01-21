@@ -9,9 +9,9 @@
 #search-box{
 	z-index: 200;
 	position: fixed;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	border: 1px solid rgba(100,100,100,1);
 	padding: 1rem;
 	border-radius: 5px;
@@ -37,7 +37,6 @@
 }
 
 .grid-item {
-	filter: blur(2px);
 	margin-top: 1vw;
 	margin-left: 1vw;
 	margin-right: 0.5vw;
@@ -49,20 +48,15 @@
 	display: inline-block;
 }
 
-.grid-item:hover{
-	filter: blur(0.00001px);
-}
-
 .grid-item:hover h1{
-	opacity: 1;
+		color: rgb(177, 176, 176);
 }
 
 .grid-text {
 	font-size: 3rem;
-	opacity: 0.5;
 	top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
 	overflow: hidden;
 	text-decoration: none;
 	width: inherit;
@@ -74,8 +68,8 @@
 }
 
 /*Mobile*/
-@media only screen and (max-width: 700px) {
-
+@media screen and (max-width: 700px) 
+{
 	.grid-item {
 		margin: 2px;
 		width: calc(calc(100vw) - 1vw);
@@ -83,8 +77,6 @@
 	}
 
 	.grid-text {
-		opacity: 1;
-		color: black;
 		font-size: 2rem;
 	}
 
@@ -96,22 +88,19 @@
 	#search-box{
 		text-align: center;
 	}
-	*/
 }
 
 /*tablet*/
-@media only screen and (max-width: 800px) and (min-width: 700px) {
+@media screen and (max-width: 800px) and (min-width: 700px) {
 
 	.grid-item {
-	margin: 2px;
-	width: calc(calc(100vw / 2) - 1vw);
-	height: calc(calc(100vw / 2) - 1vw);
+		margin: 2px;
+		width: calc(calc(100vw / 2) - 1vw);
+		height: calc(calc(100vw / 2) - 1vw);
 	}
 
 	.grid-text {
-		opacity: 1;
-		color: black;
-	font-size: 2rem;
+		font-size: 2rem;
 	}
 
 	#search {
@@ -126,20 +115,19 @@
 	#search-box{
 	text-align: center;
 	}
-
 }
 
 /*Large Laptop*/
-@media only screen and (min-width: 1400px) and (max-width: 3000px) {
+@media screen and (min-width: 1400px) and (max-width: 3000px) {
 
 	.grid-item {
-	margin: 2px;
-	width: calc(calc(100vw / 4) - 1vw);
-	height: calc(calc(100vw / 4) - 1vw);
+		margin: 2px;
+		width: calc(calc(100vw / 4) - 1vw);
+		height: calc(calc(100vw / 4) - 1vw);
 	}
 
 	.grid-text {
-	font-size: 2rem;
+		font-size: 2rem;
 	}
 
 	#search {
@@ -150,4 +138,3 @@
 		font-size: 5rem;
 	}
 }
-*/
